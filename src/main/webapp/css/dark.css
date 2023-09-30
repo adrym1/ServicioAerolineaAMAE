@@ -1,0 +1,61 @@
+.switchDark{
+    background-color: #3494b1;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.switchDark span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    color: #fff;
+    background: none;
+}
+.switchDark::after{
+    display: block;
+    background: white;
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 50%;
+    transition: all .5s ease;
+    box-shadow: 0 0 1.5px 1.5px rgba(0, 0, 0, .5);
+    content: "";
+}
+.switchDark.active{
+    background: white;
+}
+.switchDark.active::after{
+    left: unset;
+    right: 0;
+}
+body{
+    background: #fff;
+    color: #000;
+}
+body.dark{
+    background: #222;
+    
+
+}
+body.dark .box{
+    background: rgba(129, 18, 233, 0.973);
+    color: #fff;
+    
+}
+body.dark .box:hover{
+    background: rgba(164, 81, 241, 0.973);
+    color: #fff;
+    
+}
+
+

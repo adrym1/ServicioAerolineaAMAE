@@ -1,0 +1,120 @@
+body, html {
+  padding:0;
+  margin:0;
+ 
+
+}
+h2{
+font-size: 35px;
+color: #0000ff;
+}
+p{
+font-size: 15px;
+
+}
+.contenedor {
+	width: 80%;
+	margin: 2rem auto;
+	display: flex;
+	
+}
+
+
+.container .card {
+	width: 530px;
+	height: 230px;
+	border-radius: 8px;
+	box-shadow: 0 0 0.1em rgba(0,0,0,0.6);
+	overflow: hidden;
+	text-align: left;
+	cursor: pointer;
+	transition-property: box-shadow;
+	transition-duration: 0.3;
+	background-color: white;
+}
+
+.container .card:hover {
+box-shadow: 0 0 2.5em rgba(0,0,0,0.3);
+}
+
+.container .card h4 {
+	font-weight: 600;
+	text-align: center;
+	color: blue;
+}
+.container .card a {
+	
+	font-weight: 500;
+	text-decoration: none;
+	color: #3498db;
+	position: relative;
+  	left: 25%;
+}
+.container .card p {
+	padding: 0 1rem;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#columnas{
+   column-count:2;
+   column-gap:90px;
+   column-rule:4px dotted gray;
+}
+/********formulario********************/
+.form-contact {
+  background: #FFF;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+.contact {
+  padding: .8rem;
+  overflow: hidden;
+  color: gray;
+}
+
+.contact label, .contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;   
+}
+
+.contact label {
+  font-weight: 700;
+}
+
+.contact input:not([type='submit']), .contact textarea {
+  border: none;
+  border-bottom: 2px solid #ff165d;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: gray;
+}
+
+.buscar{
+	
+	border-radius: 5%;
+	
+	height: 30%;
+	width: 20%;
+	color: white;
+}
+
+
+/***ALERTA FLOTANTE******/
+
+
+.quitar{
+	display:none;
+}
+.modu img{
+	width: 35%;
+	position: relative;
+  	left: 10px;
+}

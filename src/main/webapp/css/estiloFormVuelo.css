@@ -1,0 +1,277 @@
+@charset "ISO-8859-1";
+
+#general-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #DFE8F7;
+}
+
+#general-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #DFE8F7;
+}
+
+#right-content {
+    width: 80%;
+    height: auto;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #C6C6C6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #767676;
+}
+
+.right-dentro {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+    border: 1px solid black;
+    padding: 1rem 4rem;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 0.5px black;
+    background-color: white;
+}
+
+.contenedor {
+    margin-left: 400px;
+    padding-left: 50px;
+    border: 5px solid black;
+    background-color: blanchedalmond;
+}
+
+.titulo {
+    display: flex;
+    background-color: darkorange;
+    margin-left: 400px;
+    padding: 2px;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+
+
+}
+
+.titulo h1 {
+  
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    text-shadow: 0 3px white, 0 0 10px white, 0 0 20px window;
+    margin-left: 450px;
+}
+
+form {
+
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form h1 {
+
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 16pt;
+    color: red;
+
+}
+#pf,
+#ph {
+    margin-top: 80px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-left: 50px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+.img {
+    border: 3px solid black;  
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+
+
+
+}
+
+.dato input {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 90px;
+    margin-right: 6px;
+    width: 300px;
+
+}
+
+.dato1 input {
+    display: inline;
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 90px;
+    margin-right: 6px;
+    width: 355px;
+
+}
+
+.dato2 input {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 91px;
+    width: 400px;
+}
+
+
+.datoDoble1 select {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 62px;
+    margin-right: 50px;
+    width: 300px;
+
+}
+
+
+.datoDoble11 {
+	
+	display: inline-flex;
+	margin-top: 50px;
+}
+
+
+
+
+.datoDoble11 select {
+	
+  
+    font-size: 16pt;
+    margin-left: 37px;
+    margin-right: 38px;
+    width: 300px;
+	
+}
+
+
+.datoDoble12 {
+	
+	display: inline-flex;
+}
+
+
+.datoDoble12 select{
+	margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 37px;
+    margin-right: 38px;
+    width: 300px;
+}
+
+
+.dato13 input {
+    display: inline;
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 170px;
+    margin-right: 6px;
+    width: 355px;
+
+}
+
+
+.datoFecha2 {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 80px;
+}
+
+
+.datoFecha2 input{
+    
+    font-size: 16pt;
+    margin-left: 40px;
+}
+
+
+
+.comboBox1 select {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 40px;
+    width: 350px;
+}
+
+.comboBox2 select {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 53px;
+    width: 305px;
+}
+
+.datoFecha input {
+    margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 80px;
+}
+
+.botones {
+    margin-top: 51px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.boton {
+
+    width: 200px;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17pt;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.boton p {
+    margin: 0;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.boton img {
+    width: 50px;
+}
+
+.boton-registrar {
+    background-color: lawngreen;
+}
+
+.boton-actualizar {
+    background-color: yellow;
+}
+
+.boton-eliminar {
+    background-color: red;
+}

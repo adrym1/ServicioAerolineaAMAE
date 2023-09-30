@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+body{
+	background-color: #eaffff;
+}
+.contenedor{
+	width: 95%;
+}
+.titulo{
+	line-height: 50%;
+}
+.logo{
+	width: 12%;
+	height:12%;
+	float: left;
+	position: relative;
+  	left: 5px;
+}
+h1{
+	color: #0000ff;
+	font-family: Verdanaew, Arialee, Times;
+	font-size: 50px;
+	display: inline-block;
+	text-align: right;
+}
+h2{
+	color: #80ff00;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+.btn{
+	float: right;
+	position: relative;
+  	left: 5px;
+  	background-color: #fef5d3;
+}
+table thead{
+  background-color: #c0c0c0!important;
+  color: #fff !important; 
+}
+input{
+	box-shadow: 0 0 0 1px #004080;
+	
+}

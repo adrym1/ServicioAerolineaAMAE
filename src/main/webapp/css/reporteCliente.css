@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+#general-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #DFE8F7;
+}
+
+#right-content {
+    width: 80%;
+    height: auto;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #C6C6C6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #767676;
+}
+
+.right-dentro {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+    border: 1px solid black;
+    padding: 1rem 4rem;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 0.5px black;
+    background-color: white;
+}
+/*
+body{
+	background-color:aqua;
+}*/
+.titulo{
+	line-height: 50%;
+}
+.logo{
+	width: 12%;
+	height:12%;
+	float: left;
+	position: relative;
+  	left: 5px;
+}
+h1{
+	color: #0000ff;
+	font-family: Verdanaew, Arialee, Times;
+	font-size: 50px;
+	display: inline-block;
+	text-align: right;
+}
+h2{
+	color: #008080;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+.boton{
+	float: inherit;
+	position: relative;
+  	left: 48em;
+  	background-color: #fefdd6;
+}
+.contenedor{
+	margin: 0 auto;
+	width: 80%; 
+}
+.item {
+ box-sizing: border-box; 
+  color: #646464;
+  padding: 2em;
+  position: relative;
+}
+.item:before,
+.item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background: black;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+.item:after {
+  top: 0;
+  width: 4px;
+  height: 0;
+  box-shadow:  black;
+}
+.item:before {
+  height: 4px;
+  width: 0;
+  bottom: 0;
+  box-shadow: 250px  black;
+}
+
+.item:hover:before {
+  width: 100%;
+  box-shadow: 0 -320px black;
+}
+.item:hover:after {
+  height: 100%;
+  box-shadow: 880px 0 black;
+}
+table thead{
+  background-color: #c0c0c0!important;
+  color: #fff !important; 
+}
+input{
+	box-shadow: 0 0 0 1px #004080;
+	
+}

@@ -1,0 +1,358 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: sans-serif;
+    z-index: 1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/**NAV**/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: sans-serif;
+    z-index: 1;
+
+    
+}
+
+body {
+    overflow-x: hidden;
+    }
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #27A8BA;
+    transition: top 2s;
+    
+}
+
+
+
+.content_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-decoration: none;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    
+   
+}
+
+.content_bar a {
+
+    height: 100%;
+    width: auto;
+    padding: 2%;
+    margin: 0;
+    font-size: larger;
+}
+
+
+.nav_enlace {
+    color: black;
+    text-decoration: none;
+    outline: none;
+    padding: 100% auto;
+    width: auto;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav_enlace:hover {
+    transition: 0.2s;
+    background-color: white;
+}
+
+.nav_enlace:link {
+    text-decoration: none;
+}
+
+.nav_enlace:visited {
+    color: black;
+    text-decoration: none;
+         text-align: center;
+}
+
+.logo_link {
+    width: 15%;
+    height: 15%;
+    
+}
+
+.logo_img {
+   margin-left:5px;
+	width: 65%; 
+	height: 65%;
+	display:inline-block;
+}
+
+.ingresar {
+    display: flex;
+    padding: 5% auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingresar button {
+    height: 50px;
+    width: 150%;
+    margin: 0 auto;
+    background-color: #0080c0;
+    margin-right: 35px;
+}
+.ingresar p{
+font-size: 80%;
+}
+.esconder {
+    display: none;
+}
+
+.shrink_buttons {
+    display: flex;
+    margin: auto auto;
+}
+
+.shrink_buttons button {
+    margin: auto 1rem;
+}
+
+/*Carrusel de banner*/
+.d-block{
+    margin-left: 30px;
+    align-items: center;
+    width: 98%;
+    height: 850px;
+}
+
+
+
+/*? Parte del cuerpo*/
+
+#content {
+    margin-top: 12%
+}
+
+.titulo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info_general {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.info_general p {
+    font-size: 1.2rem;
+}
+
+.enlaces_docu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 2% auto;
+    align-items: flex-start;
+
+}
+
+.enlaces_docu strong {
+    font-size: 1.2rem;
+}
+
+.flanja_separa {
+
+    height: 8rem;
+    width: 110%;
+    background-color: #EAB33D;
+    transform: rotate(-2deg);
+
+    margin: 8% -100px;
+
+    padding: 0 100px;
+    padding: 0 5% 0 5%;
+}
+
+/*? Seccion noticias*/
+/*Cards*/
+.container-card{
+	width: 100%;
+    height: 550%;
+	display: flex;
+	max-width: 2000px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 1000%;
+    height: 780px;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 550px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*Fin-Cards*/
+/*? Footer*/
+footer {
+    margin-top: 4rem;
+    width: 102.5%;
+    height: 50%;
+    background-color: cyan;
+}
+
+.foot_general {
+
+    margin: auto auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.col_izq {
+    width: 20%;
+    height: auto;
+}
+
+.centro {
+    margin-left: -4rem;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foot_enlaces_izq {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.foot_enlaces_izq a,
+.foot_enlaces_dere a {
+    font-size: larger;
+    margin: 2rem auto 2rem auto;
+}
+
+.foot_enlaces_dere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.col_dere {
+    margin-right: 2rem;
+}
+
+.foot_redes {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_redes a {
+    text-align: center;
+    height: auto;
+    width: 2.5rem;
+    font-size: xx-large;
+
+}
+
+.foot_redes a:hover {
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 20%;
+}
+
+/*? shrink ingresar*/
+.shrink_buttons {
+    display: flex;
+    margin: auto auto;
+
+}
+
+.shrink_buttons button {
+    margin: auto 1rem;
+}
+

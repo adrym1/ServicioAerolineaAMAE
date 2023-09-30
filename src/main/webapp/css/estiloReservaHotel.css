@@ -1,0 +1,287 @@
+@charset "ISO-8859-1";
+
+
+#general-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #DFE8F7;
+}
+
+#general-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #DFE8F7;
+}
+
+#right-content {
+    width: 80%;
+    height: auto;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #C6C6C6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #767676;
+}
+
+.right-dentro {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+    border: 1px solid black;
+    padding: 1rem 4rem;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 0.5px black;
+    background-color: white;
+}
+
+.contenedor {
+    margin-left: 400px;
+    padding-left: 50px;
+    border: 5px solid black;
+    background-color: blanchedalmond;
+}
+
+.titulo {
+    display: flex;
+    background-color: darkorange;
+    margin-left: 400px;
+    padding: 2px;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+
+
+}
+
+.titulo h1 {
+  
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    text-shadow: 0 3px white, 0 0 10px white, 0 0 20px window;
+    margin-left: 450px;
+}
+
+form {
+
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form h1 {
+
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 16pt;
+    color: red;
+
+}
+#pf,
+#ph {
+    margin-top: 80px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-left: 50px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.botones {
+    margin-top: 51px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/*
+
+
+*/
+
+
+.datoDoble1 {
+	border: solid 5px black;
+	display: inline-flex;
+	width: 100%
+}
+
+
+.datoDoble1 input{
+	margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 37px;
+    margin-right: 38px;
+    width: 300px;
+}
+
+
+.datoDoble1 .dato1 {
+/*		margin-top: 50px;
+    font-size: 16pt;
+    margin-left: 37px;
+    margin-right: 38px;
+    width: 300px;*/
+}
+
+
+.datoDoble1 {
+	display: inline-flex;
+	border: solid 5px black;
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 10px
+}
+
+
+.datoDoble2 {
+	
+	display: inline-flex;
+	border: solid 5px black;
+	width: 100%;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+
+
+.datoDoble2 input {
+   
+    font-size: 16pt;
+    margin-left: 90px;
+    margin-right: 6px;
+    width: 355px;
+
+}
+
+.dato3 {
+	margin-top: 10px;
+	/*border: solid 3px blue;*/
+	width: 100%;
+	display: inline-flex;
+	
+}
+
+
+
+
+.datoDoble3 {
+	
+	border: solid 5px black;
+	width: 100%;
+	display: block;
+	margin-top: 15px;
+	padding-bottom: 10px
+}
+
+
+.dato4 {
+	
+	/*border: solid 3px blue;*/
+	width: 100%;
+	display: inline-block;
+}
+
+
+.dato5{
+	
+	/*border: solid 3px blue;*/
+	width: 100%;
+	display: flex;
+}
+
+
+
+
+
+
+.dato6 {
+	
+	/*border: solid 3px blue;*/
+	width: 100%;
+	display: inline-flex;
+}
+
+
+.dato62 {
+	
+	/*border: solid 3px blue;*/
+	width: 100%;
+	display: inline-flex;
+}
+
+.dato62 select{
+	
+	/*border: solid 3px blue;*/
+	width: 100%;
+	display: flex;
+	    font-size: 16pt;
+    margin-left: 40px;
+}
+
+
+
+.datoFecha2 {
+    font-size: 16pt;
+    margin-left: 80px;
+}
+
+
+.datoFecha2 input{
+    
+    font-size: 16pt;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+.datoFecha input {
+    margin-top: auto;
+    font-size: 16pt;
+    margin-left: 80px;
+}
+
+
+.boton {
+
+    width: 170px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16pt;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+
+
+
+
+

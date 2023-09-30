@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.contenedor {
+	width: 95%;
+  	
+
+}
+.container{
+    text-align: left;
+	padding-top: 15px;
+	
+	padding-left:1%;
+	width: 90%;
+	height: 100%;
+	margin: auto auto;
+}
+.titulo , .subtitulo , .agregar{
+    margin: 35px;
+    margin-left: 0px;
+}
+.titulo{
+    width: 100%;
+    border: white 8px outset;
+    
+}
+.tabla{
+    width: 100%;
+    margin: auto auto;
+}
+
+
+  

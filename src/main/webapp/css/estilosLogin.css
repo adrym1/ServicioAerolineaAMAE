@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+html {
+    height: 100%;
+}
+
+.fondo {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(158deg, rgba(2, 0, 36, 1) 0%, rgba(9, 95, 121, 1) 40%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cont-img {
+    width: 50%;
+}
+
+.cont-img img {
+    width: 100%;
+    width: 100%;
+}
+
+.cont-general {
+    margin: 3rem auto;
+    box-shadow: 0px 0px 8px 0px black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.ingresar {
+    width: 120%;
+}
+
+.cont-login {
+    padding: 2rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabezera-login {
+    margin-top: -4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cabezera-login h1 {
+    font-size: xxx-large;
+}
+
+.img-logo {
+    width: 16rem;
+    height: 8rem;
+}
+
+.invitado-login {
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+    display: flex;
+    width: 150%;
+    justify-content: flex-end;
+}
+
+.boton {
+    margin-bottom: -3rem;
+}
+
+.invitado-login a:active {
+    color: black;
+}
+
+.invitado-login a:visited {
+    color: black;
+}
+.cambio-content {
+    background-color: white;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px #BFBFBF solid;
+    box-shadow: 0px 0px 8px 0px #313131;
+}
+
+
+
+.cont-linea {
+    margin: 1rem auto;
+    width: 100%;
+    height: 0.3px;
+    border-bottom: 1px solid #bebebe;
+}
+
+.form-cont {
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.labels-cambio,
+.inputs-cambio {
+    margin: 0.5rem auto;
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+}
+
+.inputs-cambio input {
+    width: 95%;
+}
+
+.btn-cambio {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+

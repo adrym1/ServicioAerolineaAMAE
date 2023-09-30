@@ -1,0 +1,590 @@
+#general-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #DFE8F7;
+}
+
+#right-content {
+    width: 80%;
+    height: auto;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #C6C6C6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #767676;
+}
+
+.right-dentro {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+    
+    padding: 1rem 4rem;
+    
+    border: 1px #BFBFBF solid;
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+}
+
+.eli-per {
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.eli-per button {
+    float: right;
+}
+
+
+.info-venta {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    border: 1px #9B9A9A solid;
+	
+
+}
+.info-descuento{
+	display: grid !important;
+    grid-template-columns: 25% 60% 15% !important;
+    padding: 2rem 2rem !important;
+    border: 1px #9B9A9A solid;
+	
+ 
+    margin: 2rem ;
+    
+}
+
+.info-venta:hover {
+    
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+    transition: 0.5s;
+}
+
+.descu-info {
+    margin-top: 2rem;
+
+}
+
+.info-vuelo {
+    display: flex;
+    margin: 1rem -1rem;
+
+    border: 1px solid #9B9A9A;
+    padding: 2rem 18px;
+    transition: 0.5s;
+
+}
+
+.info-vuelo:hover {
+   
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+    transition: 0.5s;
+}
+
+
+
+.campo-1-btn {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr;
+    margin: 1rem auto;
+}
+
+.campo-1-btn>label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.campo-1-btn>input {
+    grid-column: 2/3;
+    width: 60%;
+}
+
+.campo-1-btn>button {
+    grid-column: 3/4;
+}
+
+.campos-2 {
+    display: grid;
+    grid-template-columns: 15% 35% 15% 35%;
+    width: 100%;
+    grid-template-rows: auto;
+    margin: 1rem auto;
+
+}
+
+.campos-2 label:nth-child(1) {
+    grid-column: 1/2;
+}
+
+.campos-2 input:nth-child(2) {
+    grid-column: 2/3;
+    width: 90%;
+}
+
+.campos-2 input[type="date"]:nth-child(4) {
+    grid-column: 4/5;
+    width: 60%;
+}
+
+.campos-2 label:nth-child(3) {
+    grid-column: 3/4;
+}
+
+.subcampo-1 {
+    grid-column: 1/3;
+}
+
+.subcampo-2 {
+    grid-column: 3/5;
+}
+
+.num-vuelo {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+/*Los de DataTAbles*/
+
+.dataTables_length {
+    float: right !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+.dataTables_length label{
+	font-weight: bold;
+	 font-size: 1.1rem;
+}
+.dataTables_filter {
+    float: left !important;
+    margin-bottom: 1rem !important;
+}
+.dataTables_filter label{
+	font-weight: bold;
+	 font-size: 1.1rem;
+}
+.dataTables_paginate {
+    margin: 0 auto !important;
+}
+
+.bottom {
+    display: flex !important;
+}
+
+.top {
+    margin: 2rem 0 !important;
+}
+
+
+.info-adentro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+/*? Parte de  venta - pasajeros 3 */
+.indice-venta {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    justify-content: space-around;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1rem auto;
+    background-color: white;
+}
+
+.indice-dato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.indice-activo {
+    background-color: #2AC6ED !important;
+    border-color: #78C9F1 !important;
+}
+
+.indice-activo:hover {
+    background-color: #CAD1D0 !important;
+}
+
+.indice-dato i,
+.indice-dato h3 {
+    margin: 0.5rem auto;
+}
+
+.indice-dato button {
+    cursor: default;
+}
+
+.indice-dato button i {
+    font-size: 3rem;
+}
+
+.flecha {
+    top: 5rem;
+    float: left;
+    position: relative;
+    height: 4px;
+    width: 200px;
+    border: solid 1px #ccc;
+    background: black;
+}
+
+.flecha:after {
+    top: -0.5rem;
+    position: absolute;
+    right: -2px;
+    width: 20px;
+    height: 19px;
+    border-left: solid 3px black;
+    border-top: solid 3px black;
+    transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
+    content: '';
+}
+
+.resumen-info {
+    margin: 2rem auto;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.resumen-info label {
+    margin-top: 2px;
+}
+
+.resumen-info div {
+    margin: 0.5rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+}
+
+.resumen-info div[name="cont_monto"] {
+    border-top: 2px solid black;
+    padding-top: 1.5rem;
+    font-size: x-large;
+}
+
+
+/**/
+.tipo-pago {
+    padding: 3rem;
+}
+
+.pestanias-pago {
+    margin: auto 2.5rem auto auto;
+    width: 88.5%;
+    height: auto;
+
+}
+
+/**/
+.pestanias-pago button {
+     border: 1px #BFBFBF solid;
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+    text-align: center;
+    
+    font-size: 2rem;
+        width: 48%;
+    margin: auto -1px 3px -1px;
+    color: #EDEDED;
+
+}
+
+.pestania-content {
+    margin: auto auto;
+    width: 85%;
+     border: 1px #BFBFBF solid;
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+    border-top: none;
+    
+    background-color: #EDEDED;
+}
+
+.visa,
+.mastercard {
+    display: grid;
+    grid-template-columns: 20% 30% 20% 25%;
+}
+
+
+.visa label,
+.mastercard label {
+    margin: 1rem 2rem;
+}
+
+.visa input,
+.visa select,
+.mastercard input,
+.mastercard select {
+    margin: 0.8rem auto;
+    height: 2.2rem;
+}
+
+.visa input[name="txtNumTarjeta"],
+.mastercard input[name="txtNumTarjeta"] {
+    grid-column: 2/5;
+}
+
+.visa input[name="txtAutor"],
+.mastercard input[name="txtAutor"] {
+    grid-column: 2/5;
+}
+
+/**/
+.activo {
+
+    background-color: #0940CA;
+}
+
+.desactivo {
+    background-color: #7B95D5;
+}
+
+
+.billetera-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.billetera-header,
+.billetera-body {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.billetera-header label {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.billetera-header input {
+    height: 2.5rem;
+    width: 60%;
+}
+
+.billetera-body {
+    flex-direction: column;
+    text-align: center;
+}
+
+.billetera-body img {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.billetera-content button {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.botones-footer {
+    display: flex;
+    margin: auto auto;
+    width: 50%;
+    justify-content: space-around;
+    margin: 2rem auto;
+}
+
+.botones-footer button {
+    width: 30%;
+}
+
+.izqui-final {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    font-size: large;
+    margin: auto auto;
+}
+
+.izqui-final div {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: auto;
+    align-items: center;
+    justify-content: left;
+    margin: 1rem 0;
+}
+
+.izqui-final div input {
+    grid-column: 2/3;
+    width: 80%;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.boton-final {
+    display: flex;
+    margin: 2rem auto;
+}
+
+img[name="qr-finalizado"] {
+    width: 20%;
+}
+
+button[name="btnFinalizado"] {
+    width: 60%;
+    font-size: larger;
+    margin: 0 auto;
+}
+
+.buscar-flotante-0,.buscar-flotante-1 {
+    position: fixed;
+    width: 96%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.678);
+    z-index: 100;
+    display: flex;
+}
+
+.buscar-vuelo-0,.buscar-vuelo-1 {
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 2rem auto;
+    width: 60%;
+    height: 35rem;
+    padding: 3%;
+}
+
+.buscar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buscar-cerrar {
+    margin-top: -1rem;
+}
+
+.buscar-busqueda {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.buscar-busqueda div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: auto 0.5rem;
+}
+
+.buscar-busqueda div label {
+    margin-top: 0.5rem;
+    margin-right: 20px;
+    font-size: large;
+}
+
+.quitar {
+    display: none;
+}
+
+
+/*********************************Reserva de Hoteles*****************************/
+.cont-reserva {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.cod-reserva {
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0px 0px 2px 0px #313131;
+}
+
+.cod-reserva label,
+.hotel-reserva label,
+.info-reserva label {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: large;
+}
+
+.hotel-reserva {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    padding: 2rem;
+    box-shadow: 0px 0px 2px 0px #313131;
+}
+
+.hotel-reserva input {
+    width: 90%;
+}
+
+.info-reserva {
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0px 0px 2px 0px #313131;
+}
+
+.sub-info-3 {
+    display: grid;
+   grid-template-columns: 19% 66% 15%;
+}
+
+.sub-info-3 input {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.sub-info-4 {
+
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+}
+
+.accion-reserva {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accion-reserva button {
+    width: 15%;
+}

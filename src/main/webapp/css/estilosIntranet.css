@@ -1,0 +1,324 @@
+
+/* CAMBIAR FONDO DE LAS OPCIONES
+main{
+    margin-top: 10px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body {
+  
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+/*Cabezera*/
+.header{ 
+    z-index: 0;
+	text-align: center;
+	height: 10%;
+	background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-82778.jpg?w=2000");
+} 
+
+.header h1{
+    
+    color: white;
+	font-family: monospace;
+	margin-top :5px;
+	font-size: 25pt;
+	text-shadow: 0 0 30px blue , 0 0 10px black , 0 0 15px window ;
+	
+	
+
+	
+}
+
+
+.avatar{
+width: 9%;
+height: 9%;
+border-radius: 50%;	
+}
+.avatar img{
+width: 9%;	
+height: 9%;
+}
+
+
+.header button{
+	display: inline-block;
+    justify-content: center;
+    background-color: blue;
+    width: 60px;
+    height: 28px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: black;
+    transition: 0.4s ease 0s;
+   
+}
+
+.boton button{
+     
+    position: absolute; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 1; /* Establecemos la barra en la izquierda */
+    top: 20px; /* Bajamos la barra 200px de arriba a abajo */
+    left: 50px;
+    z-index: 1; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    justify-content: center;
+    background-color:black;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    transition: 0.1s ease 0s;
+    
+}
+
+
+/*Opciones*/
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.grid-item:hover {
+    background-color: aqua;
+    filter: opacity(0.9);
+    transform: scale(1.05);
+
+}
+
+.grid-container {
+    display: flex;
+    margin: 10%;
+    margin-top: 4%;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: minmax(220px, auto);
+    gap: 30px;
+    grid-auto-flow: dense;
+
+
+}
+
+.wide {
+    grid-column: span 2;
+    
+  
+}
+
+
+
+.grid-item p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    font-size: 50%;
+
+
+}
+.grid-item a {
+
+    color: black;
+
+
+}
+/*
+.grid-item:hover h1 {
+    
+    letter-spacing: 1px;
+    font-size: 5%;
+    opacity: 1;
+    filter: blur(0px);
+    color: black;
+    transition: all 600ms ease;
+    
+    font-size: 50%;
+    opacity: 1;
+  
+  }
+
+.grid-item h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    filter: blur(5px);
+    opacity: 0;
+
+
+}
+.grid-item h1{
+    margin-bottom: -20px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    filter: blur(5px);
+    opacity: 0;
+
+}
+
+.grid-item :hover h1 {
+  
+    font-size: 10px;
+    opacity: 1;
+    filter: blur(0px);
+    color: black;
+    transition: all 600ms ease;
+
+
+}
+*/
+
+
+  /*Notificacion*/
+  .wrapper{
+   
+    position: absolute; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0; /* Establecemos la barra en la izquierda */
+    top: -105px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 1; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+
+   }
+
+    .notification_wrap{              
+        margin: 120px auto 0;
+ 
+    }
+
+   
+    .notification_wrap .notification_icon{
+        position: relative;
+        width: 100px;
+        height: 40px;
+        font-size: 32px;
+        margin: 0 auto;
+        text-align: center;
+        color: yellow;
+    }
+    
+    .notification_wrap .notification_icon .fa-bell{
+        cursor: pointer;
+    }
+    
+    .notification_wrap .dropdown{
+        border: solid 5px black;
+        width: 350px;
+        height: auto;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px rgba(0,0,0,0.125);
+        margin: 15px auto 0;
+        padding: 15px;
+        position: relative;
+        display: none;
+    }
+    
+    .notification_wrap .dropdown .notify_item{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #dbdaff;
+    }
+    
+    .notification_wrap .dropdown .notify_item:last-child{
+        border-bottom: 0px;
+    }
+    
+    .notification_wrap .dropdown .notify_item .notify_img{
+        margin-right: 15px;
+    }
+    
+    .notification_wrap .dropdown .notify_item .notify_info p{
+        margin-bottom: 5px;
+        font-size: 10pt;
+    }
+    
+    .notification_wrap .dropdown .notify_item .notify_info p span{
+        color: #605dff;
+        margin-left: 5px;
+    }
+    
+    .notification_wrap .dropdown .notify_item .notify_info .notify_time{
+        color: #c5c5e6;
+        font-size: 12px;
+    }
+    
+    .notification_wrap .dropdown:before{
+        content: "";
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 15px solid;
+        border-color: transparent transparent #fff transparent;
+    }
+    
+    .notification_wrap .dropdown.active{
+        display: block;
+    }
+    .social {
+        position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+        left: 0; /* Establecemos la barra en la izquierda */
+        top: 450px; /* Bajamos la barra 200px de arriba a abajo */
+        z-index: 1; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+    
+        .social ul {
+            list-style: none;
+        }
+        
+    
+        .social ul li a {
+            padding-left: 0px;    
+            width: 80%;
+            display: inline-block;
+            color:#fff;
+            text-decoration: none;
+            -webkit-transition:all 400ms ease;
+            -o-transition:all 500ms ease;
+            transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+        }
+        .social img{
+            width: 40%;
+            
+            
+        }
+    
+    
+        .social ul li a:hover {
+            background:transparent; /* Cambiamos el fondo cuando el usuario pase el mouse */
+            padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+        }
+    
+    
