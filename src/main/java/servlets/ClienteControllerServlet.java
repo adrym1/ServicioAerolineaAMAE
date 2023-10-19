@@ -104,7 +104,7 @@ public class ClienteControllerServlet extends HttpServlet {
 				pie1.setAlignment(Chunk.ALIGN_CENTER);
 				*/
 				//pie2
-				Paragraph pie2 = new Paragraph("Derechos Reservados, Lima - Peú 2022 ",FontFactory.getFont("FontFamily",12,Font.BOLD,BaseColor.DARK_GRAY));
+				Paragraph pie2 = new Paragraph("Derechos Reservados, Lima - Perú 2023 ",FontFactory.getFont("FontFamily",12,Font.BOLD,BaseColor.DARK_GRAY));
 				pie2.setAlignment(Element.ALIGN_CENTER);
 				//separador2
 				Paragraph ca1 = new Paragraph("      ",FontFactory.getFont("FontFamily",145));
